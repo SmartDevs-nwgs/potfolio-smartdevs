@@ -51,7 +51,7 @@ export const StyledMain = styled.div`
     width: 50%;
     .lupa {
       margin-top: 2px;
-      margin-left: 3px;
+      margin-left: 2px;
     }
   }
   .icons {
