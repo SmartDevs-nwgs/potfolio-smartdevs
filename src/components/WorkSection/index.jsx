@@ -16,14 +16,17 @@ const WorkSection = () => {
           </a>
         </div>
         <div className="another-projects">
-          <a href="">
-            <div></div>
+          <a
+            href="https://github.com/pages/auth?nonce=f69a323e-f779-4956-9605-f9976b340948&page_id=28416090&path=Lw"
+            target="_blank"
+          >
+            <div className="third-project"></div>
+          </a>
+          <a href="https://projeto-frontend-m3.vercel.app/">
+            <div className="four-project"></div>
           </a>
           <a href="">
-            <div></div>
-          </a>
-          <a href="">
-            <div></div>
+            <div className="five-project"></div>
           </a>
         </div>
       </div>

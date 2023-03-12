@@ -51,6 +51,15 @@ export const StyleWorkSection = styled.section`
         height: 80px;
         background-color: var(--border);
       }
+      .third-project {
+        background-color: var(--grey);
+      }
+      .four-project {
+        background-color: var(--grey2);
+      }
+      .five-project {
+        background-color: var(--grey3);
+      }
     }
   }
   .contact-us-work {
