@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import loginKenzie from '../../assets/project-images/kenzielogin.jpg'
+import kenzieLogin from '../../assets/project-images/kenzielogin2.jpg'
 
 export const StyleWorkSection = styled.section`
-  background: var(--background2);
   width: 100vw;
   height: 100vh;
   .projects {
@@ -21,7 +22,14 @@ export const StyleWorkSection = styled.section`
         border-radius: 12px;
         width: 46%;
         height: 110px;
-        background-color: var(--border2);
+        background-image: url(${loginKenzie});
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      div:hover {
+        background-image: url(${kenzieLogin});
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     }
     .another-projects {
@@ -43,6 +51,7 @@ export const StyleWorkSection = styled.section`
     display: flex;
     justify-content: center;
     gap: 10px;
+    color: white;
 
     .bar {
       border-radius: 2px;
