@@ -4,6 +4,7 @@ export const StyledContainer = styled.div`
   z-index: 0;
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(180deg, #101521 10%, #080918 40%);
 
   .background {
     width: 100%;

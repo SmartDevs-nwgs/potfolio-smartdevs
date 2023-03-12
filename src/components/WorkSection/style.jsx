@@ -5,6 +5,7 @@ import kenzieLogin from '../../assets/project-images/kenzielogin2.jpg'
 export const StyleWorkSection = styled.section`
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(180deg, #080918 10%, #0e1a35 90%);
   .projects {
     width: 100%;
     height: 300px;
@@ -52,7 +53,7 @@ export const StyleWorkSection = styled.section`
         background-color: var(--border);
       }
       .third-project {
-        background-color: var(--grey);
+        background-color: var(--grey1);
       }
       .four-project {
         background-color: var(--grey2);

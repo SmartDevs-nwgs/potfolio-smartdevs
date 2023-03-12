@@ -22,6 +22,6 @@ export const StyledNavBar = styled.div`
     font-size: 16px;
   }
   a:hover {
-    color: var(--pink);
+    color: var(--grey1);
   }
 `

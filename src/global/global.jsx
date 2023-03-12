@@ -29,8 +29,5 @@ export const GlobalStyle = createGlobalStyle`
     user-select: none;
 }
 
-html{
-    background: linear-gradient(180deg, #202738 -60%, #070816 100%);
-}
 
 `

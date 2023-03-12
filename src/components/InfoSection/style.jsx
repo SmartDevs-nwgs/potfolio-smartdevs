@@ -7,11 +7,12 @@ export const StyledInfoSection = styled.section`
   text-align: center;
   align-items: center;
   padding-top: 50px;
+  background: linear-gradient(180deg, #0e1a35 10%, #080918 90%);
   a {
     color: gray;
   }
   a:hover {
-    color: var(--pink);
+    color: var(--grey1);
   }
 
   .info-devs {
@@ -68,6 +69,8 @@ export const StyledInfoSection = styled.section`
     }
 
     h3 {
+      text-align: center;
+      width: 120px;
     }
     p {
       color: var(--grey3);
@@ -90,10 +93,10 @@ export const StyledInfoSection = styled.section`
   @media (min-width: 900px) {
     .info-devs {
       h1 {
-        font-size: 32px;
+        font-size: 30px;
       }
       h2 {
-        font-size: 30px;
+        font-size: 26px;
         width: 850px;
       }
     }
