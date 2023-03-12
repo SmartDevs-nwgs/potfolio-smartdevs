@@ -7,7 +7,7 @@ export const StyledContact = styled.div`
     color: gray;
   }
   a:hover {
-    color: blue;
+    color: var(--pink);
   }
   .contacts {
     display: flex;

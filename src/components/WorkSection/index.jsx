@@ -6,13 +6,13 @@ const WorkSection = () => {
       <div className="projects">
         <div className="principal-projects">
           <a href="">
-            <div></div>
+            <div className="first-project"></div>
           </a>
           <a
             href="https://react-entrega-s2-formulario-de-cadastro-axeellima.vercel.app/"
             target="_blank"
           >
-            <div></div>
+            <div className="second-project"></div>
           </a>
         </div>
         <div className="another-projects">

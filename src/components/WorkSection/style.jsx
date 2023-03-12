@@ -22,13 +22,20 @@ export const StyleWorkSection = styled.section`
         border-radius: 12px;
         width: 46%;
         height: 110px;
+        background-color: var(--grey3);
+      }
+
+      .first-project {
+        background-color: black;
+      }
+      .second-project {
         background-image: url(${loginKenzie});
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
       }
-      div:hover {
+      .second-project:hover {
         background-image: url(${kenzieLogin});
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
       }
     }

@@ -11,7 +11,7 @@ export const StyledInfoSection = styled.section`
     color: gray;
   }
   a:hover {
-    color: blue;
+    color: var(--pink);
   }
 
   .info-devs {
