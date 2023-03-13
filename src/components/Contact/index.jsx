@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <StyledContact>
+    <StyledContact id='contact'>
       <div className='contacts'>
         <h1>&lt;Contato&gt;</h1>
         <h2>
@@ -13,7 +13,7 @@ const Contact = () => {
 
         <div className='icons'>
           <Link
-            to='https://github.com/orgs/SmartDevs-nwgs/dashboard'
+            to='https://api.whatsapp.com/send?phone=5544991053179'
             target='_blank'
           >
             <BsWhatsapp />

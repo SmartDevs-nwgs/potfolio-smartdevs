@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const InfoSection = () => {
   return (
     <>
-      <StyledInfoSection>
+      <StyledInfoSection id='about'>
         <div className='info-devs'>
           <h1> &lt;Quem somos&gt;</h1>
           <h2>

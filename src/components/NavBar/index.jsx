@@ -3,11 +3,13 @@ import { StyledNavBar } from './style'
 const NavBar = () => {
   return (
     <StyledNavBar>
-      <div className="container">
-        <a href="">Início</a>
-        <a href="">Projetos</a>
-        <a href="">Sobre</a>
-        <a href="">Contato</a>
+      <div className='container'>
+        <a heref='' onClick={() => window.scrollTo({ top: 0 })}>
+          Início
+        </a>
+        <a href='#work'>Projetos</a>
+        <a href='#about'>Sobre</a>
+        <a href='#contact'>Contato</a>
       </div>
     </StyledNavBar>
   )

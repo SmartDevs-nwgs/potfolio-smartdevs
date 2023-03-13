@@ -1,6 +1,20 @@
 import styled from 'styled-components'
-import loginKenzie from '../../assets/project-images/kenzielogin.jpg'
-import kenzieLogin from '../../assets/project-images/kenzielogin2.jpg'
+import kenziehub1 from '../../assets/project-images/kenziehub/kenzielogin.jpg'
+import kenziehub2 from '../../assets/project-images/kenziehub/kenzielogin2.jpg'
+import kenziehub3 from '../../assets/project-images/kenziehub/kenziehub3.png'
+
+import motorshop1 from '../../assets/project-images/motorshop/motorshop1.png'
+import motorshop2 from '../../assets/project-images/motorshop/motorshop2.png'
+import motorshop3 from '../../assets/project-images/motorshop/motorshop3.png'
+import motorshop4 from '../../assets/project-images/motorshop/motorshop4.png'
+
+import burguer1 from '../../assets/project-images/burguer/burguer1.png'
+
+import seupet1 from '../../assets/project-images/seupet/seupet1.png'
+import seupet2 from '../../assets/project-images/seupet/seupet2.png'
+
+import kenziehabits1 from '../../assets/project-images/kenziehabits/kenziehabits1.png'
+import kenziehabits2 from '../../assets/project-images/kenziehabits/kenziehabits2.png'
 
 export const StyleWorkSection = styled.section`
   width: 100vw;
@@ -23,21 +37,50 @@ export const StyleWorkSection = styled.section`
         border-radius: 12px;
         width: 46%;
         height: 110px;
-        background-color: var(--grey3);
+        cursor: pointer;
       }
-
       .first-project {
-        background-color: black;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+
+        background-image: url(${motorshop2});
+      }
+      .first-project:hover {
+        animation: motorshop 4s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        @keyframes motorshop {
+          20% {
+            background-image: url(${motorshop1});
+          }
+          40% {
+            background-image: url(${motorshop3});
+          }
+
+          60% {
+            background-image: url(${motorshop4});
+          }
+        }
       }
       .second-project {
-        background-image: url(${loginKenzie});
+        background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+        backface-visibility: hidden;
+
+        background-image: url(${seupet1});
       }
       .second-project:hover {
-        background-image: url(${kenzieLogin});
-        background-size: cover;
-        background-repeat: no-repeat;
+        animation: seupet 3s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        @keyframes seupet {
+          50% {
+            background-image: url(${seupet2});
+          }
+        }
       }
     }
     .another-projects {
@@ -50,16 +93,56 @@ export const StyleWorkSection = styled.section`
         border-radius: 12px;
         width: 30%;
         height: 80px;
-        background-color: var(--border);
+        background-color: var(--border2);
+        cursor: pointer;
       }
       .third-project {
-        background-color: var(--grey1);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+
+        background-image: url(${burguer1});
       }
       .four-project {
-        background-color: var(--grey2);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+
+        background-image: url(${kenziehub1});
+      }
+      .four-project:hover {
+        animation: kenziehub 3s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        @keyframes kenziehub {
+          40% {
+            background-image: url(${kenziehub2});
+          }
+
+          60% {
+            background-image: url(${kenziehub3});
+          }
+        }
       }
       .five-project {
-        background-color: var(--grey3);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        backface-visibility: hidden;
+
+        background-image: url(${kenziehabits2});
+      }
+      .five-project:hover {
+        animation: kenziehabits 3s linear infinite 0s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        @keyframes kenziehabits {
+          50% {
+            background-image: url(${kenziehabits1});
+          }
+        }
       }
     }
   }

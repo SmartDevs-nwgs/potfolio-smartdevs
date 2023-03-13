@@ -36,7 +36,9 @@ const Main = () => {
             <p>Um time de especialistas em React e Node ou</p>
             <p>a solução em desenvolvimento para o seu negócio</p>
 
-            <button>Conheça nosso trabalho</button>
+            <a href='#work'>
+              <button>Conheça nosso trabalho</button>
+            </a>
           </div>
         </div>
       </div>
