@@ -112,6 +112,7 @@ export const StyleWorkSection = styled.section`
 
         background-image: url(${kenziehub1});
       }
+      
       .four-project:hover {
         animation: kenziehub 3s linear infinite 0s;
         animation-timing-function: ease-in-out;
